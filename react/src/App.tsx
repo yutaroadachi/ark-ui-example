@@ -1,7 +1,10 @@
+import { Avatar } from "./components/Avatar";
+
 function App() {
   return (
     <main>
-      <h1>Hello World.</h1>
+      <h1>Hello React.</h1>
+      <Avatar src="hoge.png" alt="hoge" />
     </main>
   );
 }
